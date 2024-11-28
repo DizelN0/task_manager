@@ -8,5 +8,6 @@ class Task(db.Model):
     completed = db.Column(db.Boolean, default=False)
     deadline = db.Column(db.DateTime, nullable=True)
 
+
     def __repr__(self):
         return f''
